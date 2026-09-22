@@ -1,0 +1,98 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+/* this is the header styles */
+
+header {
+  background-color: #1f2937;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: row;
+  color: aliceblue;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+
+  padding-right: 136px;
+  padding-left: 136px;
+}
+
+section {
+  padding: 136px;
+}
+
+.logo h1 {
+  align-self: center;
+  font-size: 24px;
+}
+
+header ul {
+  list-style: none;
+}
+header li {
+  display: inline-flex;
+  margin-right: 20px;
+}
+
+header a {
+  font-size: 14px;
+  text-decoration: underline;
+  color: aliceblue;
+}
+
+/* this is section one styles */
+
+#s1 {
+  background-color: #1f2937;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: row;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  align-items: stretch;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#s1-img {
+  background-color: #40454d;
+  flex-grow: 1;
+  flex-basis: 0px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#s1-texts {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  flex-grow: 1;
+  align-self: center;
+  gap: 20px;
+}
+#s1-texts h1 {
+  font-weight: 800;
+  font-size: 48px;
+}
+
+#s1-texts p {
+  color: rgba(255, 255, 255, 0.532);
+}
+
+#s1 button {
+  padding: 12px;
+  padding-right: 18px;
+  padding-left: 18px;
+  background-color: rgb(47, 141, 255);
+  border: none;
+  border-radius: 10px;
+  color: aliceblue;
+  font-weight: bold;
+  display: inline;
+  align-self: flex-start;
+}

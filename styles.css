@@ -11,16 +11,15 @@ header {
   display: flex;
   flex-direction: row;
   color: aliceblue;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 16px;
-
-  padding-right: 136px;
-  padding-left: 136px;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
 section {
-  padding: 136px;
+  padding: 70px;
 }
 
 .logo h1 {
@@ -55,13 +54,23 @@ header a {
   align-items: stretch;
   gap: 20px;
   flex-wrap: wrap;
+  flex-basis: 850px;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+#s1-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
 }
 
 #s1-img {
   background-color: #40454d;
   flex-grow: 1;
   flex-basis: 0px;
-  height: 250px;
+  height: 220px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,7 +82,7 @@ header a {
   flex-basis: 0;
   flex-grow: 1;
   align-self: center;
-  gap: 20px;
+  gap: 8px;
 }
 #s1-texts h1 {
   font-weight: 800;
@@ -95,4 +104,124 @@ header a {
   font-weight: bold;
   display: inline;
   align-self: flex-start;
+}
+
+/* section two styling */
+
+#s2 {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#s2 h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-con {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  max-width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.card img {
+  flex-basis: 140px;
+  width: 140px;
+  border: 4px solid blue;
+  border-radius: 12px;
+}
+
+.card p {
+  font-size: 16px;
+  text-align: center;
+  text-justify: distribute;
+}
+
+#s3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: #e5e7eb;
+  flex-wrap: wrap;
+}
+#s3 h3 {
+  align-self: center;
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+#s3 p {
+  align-self: flex-end;
+  font-size: 20px;
+}
+
+#s4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#cta-con {
+  background-color: #3882f6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 800px;
+  padding: 30px;
+}
+
+#texts {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+#texts h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+#cta-btn {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cta-btn button {
+  border-radius: 2px;
+  padding: 4px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #3882f6;
+  color: white;
+  border: 2px solid white;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f2937;
+  color: white;
+  height: 80px;
 }
